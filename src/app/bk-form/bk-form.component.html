@@ -1,0 +1,21 @@
+<p><b>Please fill the form to reserve a room</b></p>
+
+  Name:<br>
+  <input type="text" placeholder="Name" [(ngModel)]="name"><br>
+  Last Name:<br>
+  <input type="text"  placeholder="Last_name" [(ngModel)]="last_name"><br>
+  Age:<br>
+  <input type="text" placeholder="Age" [(ngModel)]="age"><br>
+  Gender:<br>
+  <input type="text" placeholder="Gender" [(ngModel)]="gender"><br>
+  Date:<br>
+  <input type="date" placeholder="Current Date" [(ngModel)]="date"><br>
+ <br>
+  <!--ngModel link u to the backEnd variable i.e passwrd email on loginC.ts-->
+ {{name}}
+<div>
+  <!--<button routerLink="/client" >Place Booking</button> &nbsp;-->
+  <button type="submit" (click)="onSubmit()">Place Booking</button> &nbsp;
+  <button type="submit" (click)="clearForm()">Cancel Booking</button>
+</div> 
+ <!-- dont forget to import formModules from app.modele-->

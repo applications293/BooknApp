@@ -1,0 +1,24 @@
+button {
+    color: rgb(255, 255, 255); font-size: 17px; line-height: 17px; padding: 7px; border-radius: 5px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    button:hover {
+    background: rgb(28, 164, 119); 
+    }
+    button:active {
+    background: #144E75; 
+}
+
+b{
+    color: rgb(174, 0, 255);
+}
+
+input{
+    border-radius: 10px;
+    border-color: cyan;
+    height: 25px;
+    
+}
+input:hover{
+    background: rgb(28, 164, 119);   
+    color: rgb(255, 255, 255);
+}
